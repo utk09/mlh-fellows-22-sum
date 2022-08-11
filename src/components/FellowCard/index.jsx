@@ -3,7 +3,7 @@ import { MdEmail } from 'react-icons/md';
 import { BsFillFileEarmarkPdfFill, BsFillPlayCircleFill, BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 
-const FellowCard = ({ id, name, fellowshipExperience, profilePhoto, github, linkedin, email, music, resume, techStack }) => {
+const FellowCard = ({ id, name, fellowshipExperience, profilePhoto, github, linkedin, email, music, techStack }) => {
 
   return (
     <>
@@ -12,16 +12,6 @@ const FellowCard = ({ id, name, fellowshipExperience, profilePhoto, github, link
         className="col-span-1 flex flex-col text-center bg-light-50 rounded-lg shadow divide-y divide-light-200"
       >
         <div className="flex">
-          <div className="w-0 flex-1 flex">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={`${resume}`}
-              className="relative w-0 flex-1 inline-flex items-start justify-center py-4 text-sm text-light-700 font-medium border border-transparent hover:text-quinary-800"
-            >
-              <BsFillFileEarmarkPdfFill className="w-5 h-5 text-light-400 hover:text-quinary-800" aria-hidden="true" />
-            </a>
-          </div>
           <div className="-ml-px w-0 flex-1 flex">
             <a
               target="_blank"
@@ -35,7 +25,7 @@ const FellowCard = ({ id, name, fellowshipExperience, profilePhoto, github, link
         </div>
         <div className="flex-1 flex flex-col p-8">
           <img className="w-32 h-32 flex-shrink-0 mx-auto rounded-full"
-            src={profilePhoto} alt={name} />
+            src={profilePhoto} alt={name} loading="lazy" />
           <h3 className="mt-6 text-light-900 text-sm font-medium">{name}</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">fellowshipExperience</dt>
@@ -96,7 +86,6 @@ FellowCard.defaultProps = {
   linkedin: "",
   email: "",
   music: "",
-  resume: "",
   techStack: ""
 };
 

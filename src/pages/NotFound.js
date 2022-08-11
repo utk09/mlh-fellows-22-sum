@@ -10,7 +10,7 @@ const NotFound = () => {
           <div className="flex-shrink-0 flex justify-center">
             <a href="/" className="inline-flex">
               <span className="sr-only">Solana Sharks</span>
-              <img className="h-36 w-auto" src={COVER_IMAGE} alt="" />
+              <img className="h-36 w-auto" src={COVER_IMAGE} alt="" loading="lazy" />
             </a>
           </div>
           <div className="py-16">

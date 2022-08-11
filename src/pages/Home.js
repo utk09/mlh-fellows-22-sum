@@ -26,7 +26,9 @@ const Home = () => {
           </div>
           <div className="flex float-right pr-2">
             <a
-              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/utk09/mlh-fellows-22-sum"
               className="mt-8 inline-flex items-center justify-center border border-transparent shadow-lg text-base font-medium rounded-md text-light-200 hover:bg-light-900 sm:w-auto"
             >
               <FaGithub className="w-6 h-6" />
@@ -74,7 +76,6 @@ const Home = () => {
                     linkedin={fellow.linkedin}
                     email={fellow.email}
                     music={fellow.music}
-                    resume={fellow.resume}
                     techStack={fellow.techStack}
                   />
                 ))}
