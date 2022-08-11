@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
-import { BsFillFileEarmarkPdfFill, BsFillPlayCircleFill, BsLinkedin } from 'react-icons/bs';
+import { BsFillPlayCircleFill, BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 
 const FellowCard = ({ id, name, fellowshipExperience, profilePhoto, github, linkedin, email, music, techStack }) => {
