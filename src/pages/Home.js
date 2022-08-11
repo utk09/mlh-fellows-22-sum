@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import FellowCard from "../components/FellowCard";
 import MLHTeamCard from "../components/MLHTeamCard";
 import { FellowsData } from "../data/FellowsData";
-import { LeadershipData } from "../data/LeadershipData";
+import { MLHTeamData } from "../data/MLHTeamData";
 
 const Home = () => {
   return (
@@ -45,14 +45,14 @@ const Home = () => {
                 </h2>
 
                 <ul className="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
-                  {LeadershipData.map((leader) => (
+                  {MLHTeamData.map((mlhteam) => (
                     <MLHTeamCard
-                      key={leader.id}
-                      id={leader.id}
-                      name={leader.name}
-                      role={leader.role}
-                      profilePhoto={leader.profilePhoto}
-                      message={leader.message}
+                      key={mlhteam.id}
+                      id={mlhteam.id}
+                      name={mlhteam.name}
+                      role={mlhteam.role}
+                      profilePhoto={mlhteam.profilePhoto}
+                      message={mlhteam.message}
                     />
                   ))}
                 </ul>

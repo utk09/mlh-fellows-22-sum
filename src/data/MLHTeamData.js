@@ -1,4 +1,4 @@
-export const LeadershipData = [
+export const MLHTeamData = [
   {
     id: 1,
     name: "Name",
