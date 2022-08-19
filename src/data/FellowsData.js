@@ -4,7 +4,7 @@ export const FellowsData = [
     emailAddress: "alfredokang@gmail.com",
     fullName: "Alfred Okang",
     profilePhoto: "alfredokang.jpeg",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship: "Meeting deadlines and working w/ a team",
     fellowSuccess:
       "Learning a great deal about solana and anchor especially. Now i have an understanding of how to build dapps using the blockchain and can continue to grow from there",
@@ -21,7 +21,7 @@ export const FellowsData = [
     emailAddress: "carlos.martin.leon@estudiantat.upc.edu",
     fullName: "Carlos Martin León",
     profilePhoto: "carlosmartinleon.png",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship:
       "Solana ecosystem, Remote work and I have improved coding skills with new languages.",
     fellowSuccess:
@@ -38,7 +38,7 @@ export const FellowsData = [
     emailAddress: "davidtranhq@gmail.com",
     fullName: "David Tran",
     profilePhoto: "davidtran.jpeg",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship: "Anchor, Rust, Web3 development!",
     fellowSuccess:
       "I was able to build a full-stack Web3 app that implemented a whitelisting solution on the Solana blockchain: all technologies that I have never used before.",
@@ -90,7 +90,7 @@ export const FellowsData = [
     emailAddress: "ishan26rawat@gmail.com",
     fullName: "Ishan Rawat",
     profilePhoto: "ishanrawat.jpeg",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship: "Solana, Blockchain, TypeScript",
     fellowSuccess:
       "Got a very good intro into the web3 ecosystem and the scope ahead",
@@ -107,13 +107,12 @@ export const FellowsData = [
     emailAddress: "julian31186@gmail.com",
     fullName: "Julian Elmasry",
     profilePhoto: "julianelmasry.jpeg",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship:
       "-How to write a solana smart contract, -How to use the anchor framework, -Deeper understanding of blockchain and its use cases",
     fellowSuccess:
       "-Developing a whitelisting smart contract solution and integrating it with a working frontend",
-    fellowTechStack:
-      "Within the fellowship we used anchor which is built off of rust, as well as NextJS for the front end ",
+    fellowTechStack:"Within the fellowship we used anchor which is built off of rust, as well as NextJS for the front end",
     githubURL: "https://github.com/julian31186",
     linkedinURL: "https://www.linkedin.com/in/julian-elmasry-843604228/",
     fellowFavouriteMusic:
@@ -125,7 +124,7 @@ export const FellowsData = [
     emailAddress: "rudranshsharma123@gmail.com",
     fullName: "Rudransh Sharma ",
     profilePhoto: "rudranshsharma.jpeg",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship: "Collaboration, Rust, Solana ecosystem ",
     fellowSuccess:
       "Learning Rust, something which I’ve been putting off for a long time and finally be able to write smart contracts on Solana which seemed so daunting at first",
@@ -143,7 +142,7 @@ export const FellowsData = [
     emailAddress: "sauravfouzdar@gmail.com",
     fullName: "Saurav Fouzdar",
     profilePhoto: "sauravfouzdar.jpeg",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship:
       "- How to work in team\n- Learned about solana and about blockchains in general \n- It was good talking and working with pod mates from different countries",
     fellowSuccess:
@@ -161,7 +160,7 @@ export const FellowsData = [
     emailAddress: "jameswwei@hotmail.com",
     fullName: "Wenjing Wei",
     profilePhoto: "wenjingwei.jpeg",
-    projectName: "Solana Whitelisting Contract",
+    projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship:
       "1. How to develop apps on Solana chain. 2. How to make contributions to open source projects. 3. How to work in a team.",
     fellowSuccess:

@@ -4,21 +4,22 @@ Built using [react.js](https://reactjs.org/) {[create-react-app](https://create-
 
 Icons from [react-icons](https://react-icons.github.io/react-icons/) and Routing via [react-router-dom](https://reactrouter.com/docs/en/v6/getting-started/overview).
 
-#### Website hosted on Netlify. URL: [https://solana-sharks-mlh.netlify.app/](https://solana-sharks-mlh.netlify.app/)
+## Website hosted on Netlify. URL: [https://solana-sharks-mlh.netlify.app/](https://solana-sharks-mlh.netlify.app/)
 
-## How to use this template?
+### How to use this template?
 
 Clone the repository.
 
 Type the following in the terminal to install all packages.
+
 ```sh
 npm install && npm install -D
 ```
 
-
 Then run the website by typing
+
 ```sh
 npm start
 ```
 
-Now you can go to src/data and edit FellowData.js and MLHTeamData.js with your own data.
+Now you can go to **src/data** and add your own data to ```FellowData.js``` and ```MLHTeamData.js```.

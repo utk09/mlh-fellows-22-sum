@@ -1,22 +1,20 @@
 import React from 'react';
 
-const MLHTeamCard = ({ id, name, role, profilePhoto, message }) => {
+const MLHTeamCard = ({ id, name, role, socialMediaURL, message }) => {
   return (
     <>
       <li key={id}>
-        <div className="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
-          <div className="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-            <img className="object-cover shadow-lg rounded-lg" src={profilePhoto} alt=""  loading="lazy" />
-          </div>
-          <div className="sm:col-span-2">
-            <div className="space-y-4">
-              <div className="text-lg leading-6 font-medium space-y-1">
-                <h3 className="text-secondary-600 text-xl">{name}</h3>
-                <p className="text-quinary-600 text-sm">{role}</p>
-              </div>
-              <div className="text-lg">
-                <p className="text-light-400">{message}</p>
-              </div>
+        <div >
+          <div className="card card-side bg-base-200 border-2 border-accent shadow-xl">
+            <div className="card-body">
+              {socialMediaURL && socialMediaURL.length > 0 ? (
+                <a href={socialMediaURL} className="hover:underline"
+                  target="_blank" rel="noreferrer">
+                  <h2 className="card-title text-neutral-content">{name}</h2>
+                </a>
+              ) : (<h2 className="card-title text-neutral-content">{name}</h2>)}
+              <p className="text-sm text-warning tracking-wide">{role}</p>
+              <p className="whitespace-pre-wrap text-sm leading-6">{message}</p>
             </div>
           </div>
         </div>

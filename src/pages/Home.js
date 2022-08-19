@@ -19,10 +19,10 @@ const Home = () => {
                 22.SUM.8 | Solana Sharks
               </h1>
               <p className="mt-4 text-lg text-primary">
-                Batch of Summer 2022, Solana Sharks is a group of 14 students
-                from all over the world. The team worked on two projects: Solana
-                Bounty (4 fellows) and Solana Whitelisting Contract (10
-                fellows).
+                Solana Sharks was a group of 14 students from all over the world
+                who graduated from the MLH Internship in the summer of 2022. The team worked on two
+                projects: Solana Bounty (4 fellows) and Solana Whitelisting
+                Contract (10 fellows).
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Home = () => {
                       id={mlhteam.id}
                       name={mlhteam.name}
                       role={mlhteam.role}
-                      profilePhoto={mlhteam.profilePhoto}
+                      socialMediaURL={mlhteam.socialMediaURL}
                       message={mlhteam.message}
                     />
                   ))}

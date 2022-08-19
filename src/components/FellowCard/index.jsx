@@ -26,17 +26,15 @@ const FellowCard = ({ id, emailAddress, fullName, profilePhoto, projectName, thr
           </div>
         </div>
         <div className="flex-1 flex flex-col p-8">
-          {/* <img className="w-32 h-32 flex-shrink-0 mx-auto rounded-full"
-            src={profilePhoto} alt={fullName} loading="lazy" /> */}
           <div className="avatar">
-            <div className="w-32 h-32 flex-shrink-0 mx-auto rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+            <div className="w-32 h-32 flex-shrink-0 mx-auto rounded-full ring ring-neutral-content ring-offset-base-100 ring-offset-2">
               <img src={profilePhoto}
                 alt={fullName} loading="lazy" />
             </div>
           </div>
           <h3 className="mt-6 text-sm font-medium">
-            {fullName} | {projectName}</h3>
-          <div className="flex-1 flex flex-row p-8 mx-auto">
+            <span className="text-secondary">{fullName}</span> | {projectName}</h3>
+          <div className="flex-1 flex flex-row p-2 mx-auto">
             <CustomModal
               id={`${id}${threeThingsFromFellowship}`}
               modalIcon={<RiNumber3 />}
@@ -53,20 +51,13 @@ const FellowCard = ({ id, emailAddress, fullName, profilePhoto, projectName, thr
               modalTitle="My overall fellowship experience"
               modalDescription={overallFellowshipExperience} />
           </div>
-          <div className="mt-1 flex-grow flex flex-col justify-between">
+          <div className="flex-grow flex flex-col justify-between">
             <span className="sr-only">Fellow Tech Stack</span>
-            {/* <p className="mt-3">
-              {fellowTechStack &&
-                <span className="px-4 py-1 text-secondary-content text-xs font-medium bg-secondary">
-                  {fellowTechStack}
-                </span>
-              }
-            </p> */}
             <div className="card w-auto bg-base-100 shadow-xl">
               <div className="py-4 px-4">
-                <p>
+                <p className="">
                   {fellowTechStack &&
-                    <span className="px-4 py-1 text-xs font-medium">
+                    <span className="py-1 text-xs font-medium">
                       {fellowTechStack}
                     </span>
                   }
@@ -115,15 +106,18 @@ const FellowCard = ({ id, emailAddress, fullName, profilePhoto, projectName, thr
 };
 
 FellowCard.defaultProps = {
-  id: 0,
-  name: "",
-  fellowshipExperience: "",
-  profilePhoto: "https://placeimg.com/400/225/arch",
-  github: "",
-  linkedin: "",
-  email: "",
-  music: "",
-  techStack: ""
+  id: '0',
+  emailAddress: 'NA',
+  fullName: 'NA',
+  profilePhoto: 'NA',
+  projectName: 'NA',
+  threeThingsFromFellowship: 'NA',
+  fellowSuccess: 'NA',
+  fellowTechStack: 'NA',
+  githubURL: 'NA',
+  linkedinURL: 'NA',
+  fellowFavouriteMusic: 'NA',
+  overallFellowshipExperience: 'NA'
 };
 
 export default FellowCard;
