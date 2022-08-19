@@ -6,17 +6,19 @@ import MLHTeamCard from "../components/MLHTeamCard";
 import { FellowsData } from "../data/FellowsData";
 import { MLHTeamData } from "../data/MLHTeamData";
 
+const FELLOWS_PHOTO_PATH = "/fellows/photos/";
+
 const Home = () => {
   return (
     <>
-      <div className="bg-light-100">
-        <section className="relative overflow-hidden bg-secondary-800 pt-16 pb-2">
+      <div>
+        <section className="relative overflow-hidden bg-base-300 pt-16 pb-2">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-2 relative">
             <div className="mx-auto max-w-4xl text-center">
-              <h1 className="text-3xl tracking-tight text-light-50 sm:text-4xl">
+              <h1 className="text-3xl tracking-tight text-primary sm:text-4xl">
                 22.SUM.8 | Solana Sharks
               </h1>
-              <p className="mt-4 text-lg text-light-50">
+              <p className="mt-4 text-lg text-primary">
                 Batch of Summer 2022, Solana Sharks is a group of 14 students
                 from all over the world. The team worked on two projects: Solana
                 Bounty (4 fellows) and Solana Whitelisting Contract (10
@@ -71,7 +73,7 @@ const Home = () => {
                     id={fellow.id}
                     emailAddress={fellow.emailAddress}
                     fullName={fellow.fullName}
-                    profilePhoto={fellow.profilePhoto}
+                    profilePhoto={`${FELLOWS_PHOTO_PATH}${fellow.profilePhoto}`}
                     projectName={fellow.projectName}
                     threeThingsFromFellowship={fellow.threeThingsFromFellowship}
                     fellowSuccess={fellow.fellowSuccess}
@@ -79,7 +81,9 @@ const Home = () => {
                     githubURL={fellow.githubURL}
                     linkedinURL={fellow.linkedinURL}
                     fellowFavouriteMusic={fellow.fellowFavouriteMusic}
-                    overallFellowshipExperience={fellow.overallFellowshipExperience}
+                    overallFellowshipExperience={
+                      fellow.overallFellowshipExperience
+                    }
                   />
                 ))}
               </ul>
