@@ -3,9 +3,9 @@ import React from 'react';
 const MLHTeamCard = ({ id, name, role, socialMediaURL, message }) => {
   return (
     <>
-      <li key={id}>
-        <div >
-          <div className="card card-side bg-base-200 border-2 border-accent shadow-xl">
+      <li key={id} className="col-span-1 flex flex-col rounded-xl border-2 border-accent">
+        <div>
+          <div className="card card-side bg-base-200 shadow-xl">
             <div className="card-body">
               {socialMediaURL && socialMediaURL.length > 0 ? (
                 <a href={socialMediaURL} className="hover:underline"
