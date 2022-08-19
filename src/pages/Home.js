@@ -34,7 +34,11 @@ const Home = () => {
               href="https://mlh.io/"
               className="mt-8 inline-flex items-center justify-center border border-transparent shadow-lg text-base font-medium rounded-md text-light-200 hover:bg-light-900 sm:w-auto"
             >
-              <img className="h-10 w-auto" src="/images/mlh-logo-white.png" alt="MLH Logo" />
+              <img
+                className="h-10 w-auto"
+                src="/images/mlh-logo-white.png"
+                alt="MLH Logo"
+              />
             </a>
             <a
               target="_blank"
@@ -66,12 +70,20 @@ const Home = () => {
                     />
                   ))}
                 </ul>
+                <MLHTeamCard
+                  key="10001"
+                  id="10001"
+                  name="Thank you @Leah Caputo, @Wei He, @Arsalan Dilawar and all the other MLH team members, Pod Leaders for your support and commitment to the MLH community. &#128513; Without you, this wouldn't be possible!"
+                  role=""
+                  socialMediaURL=""
+                  message=""
+                />
               </div>
             </div>
           </div>
         </section>
 
-        <hr className="my-10" />
+        <hr className="my-10 border-2 border-neutral-content" />
 
         <section>
           <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:px-4 relative">
