@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <div className="bg-light-100">
-        <section className="relative overflow-hidden bg-secondary-600 pt-16 pb-2">
+        <section className="relative overflow-hidden bg-secondary-800 pt-16 pb-2">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-2 relative">
             <div className="mx-auto max-w-4xl text-center">
               <h1 className="text-3xl tracking-tight text-light-50 sm:text-4xl">
@@ -69,14 +69,17 @@ const Home = () => {
                   <FellowCard
                     key={fellow.id}
                     id={fellow.id}
-                    name={fellow.name}
-                    fellowshipExperience={fellow.fellowshipExperience}
+                    emailAddress={fellow.emailAddress}
+                    fullName={fellow.fullName}
                     profilePhoto={fellow.profilePhoto}
-                    github={fellow.github}
-                    linkedin={fellow.linkedin}
-                    email={fellow.email}
-                    music={fellow.music}
-                    techStack={fellow.techStack}
+                    projectName={fellow.projectName}
+                    threeThingsFromFellowship={fellow.threeThingsFromFellowship}
+                    fellowSuccess={fellow.fellowSuccess}
+                    fellowTechStack={fellow.fellowTechStack}
+                    githubURL={fellow.githubURL}
+                    linkedinURL={fellow.linkedinURL}
+                    fellowFavouriteMusic={fellow.fellowFavouriteMusic}
+                    overallFellowshipExperience={fellow.overallFellowshipExperience}
                   />
                 ))}
               </ul>
