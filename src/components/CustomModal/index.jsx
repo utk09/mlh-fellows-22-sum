@@ -10,7 +10,7 @@ const CustomModal = ({ id, modalIcon, modalTitle, modalDescription }) => {
           <h3 className="font-bold text-lg">{modalTitle}</h3>
           <p className="py-4 text-left whitespace-pre-wrap">{modalDescription}</p>
           <div className="modal-action">
-            <label htmlFor={id} className="btn">Ok</label>
+            <label htmlFor={id} className="btn">Nice</label>
           </div>
         </div>
       </div>

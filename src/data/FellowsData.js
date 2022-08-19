@@ -109,7 +109,7 @@ export const FellowsData = [
     profilePhoto: "julianelmasry.jpeg",
     projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship:
-      "-How to write a solana smart contract, -How to use the anchor framework, -Deeper understanding of blockchain and its use cases",
+      "-How to write a solana smart contract, \n-How to use the anchor framework, \n-Deeper understanding of blockchain and its use cases",
     fellowSuccess:
       "-Developing a whitelisting smart contract solution and integrating it with a working frontend",
     fellowTechStack:"Within the fellowship we used anchor which is built off of rust, as well as NextJS for the front end",
@@ -127,7 +127,7 @@ export const FellowsData = [
     projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship: "Collaboration, Rust, Solana ecosystem ",
     fellowSuccess:
-      "Learning Rust, something which I’ve been putting off for a long time and finally be able to write smart contracts on Solana which seemed so daunting at first",
+      "Learning Rust, something which I've been putting off for a long time and finally be able to write smart contracts on Solana which seemed so daunting at first",
     fellowTechStack:
       "React, Flask, Mongo, Solidity/Eth, Rust/Solana, Dart/Flutter",
     githubURL: "https://github.com/rudranshsharma123",
@@ -162,7 +162,7 @@ export const FellowsData = [
     profilePhoto: "wenjingwei.jpeg",
     projectName: "Solana Wallet Based Whitelisting Contract",
     threeThingsFromFellowship:
-      "1. How to develop apps on Solana chain. 2. How to make contributions to open source projects. 3. How to work in a team.",
+      "1. How to develop apps on Solana chain. \n2. How to make contributions to open source projects. \n3. How to work in a team.",
     fellowSuccess:
       "I think my biggest success was that I learned how to learn programming and many other stuffs on my own. This ability has been the single most important key on my career switch path.",
     fellowTechStack: "Still figuring this part out!",
@@ -198,7 +198,7 @@ export const FellowsData = [
     threeThingsFromFellowship: "Nextjs, Reactjs, TailwindCSS",
     fellowSuccess:
       "I'm so proud and happy with my contributions to the Solana bounty program",
-    fellowTechStack: "MERN mainly interested at backend development",
+    fellowTechStack: "MERN, mainly interested at backend development",
     githubURL: "https://github.com/ZeyadTarekk",
     linkedinURL: "https://www.linkedin.com/in/zeyad-tarek/",
     fellowFavouriteMusic: "-",
