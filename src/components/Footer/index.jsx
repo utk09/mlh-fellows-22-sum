@@ -8,7 +8,7 @@ const Footer = () => {
           Copyright belongs to their respective owners and creators.
         </p>
         <p>
-          Built with &hearts; by <a href="https://github.com/utk09" target="_blank" rel="noreferrer" className="hover:underline">UT (Utkarsh Tiwari)</a>
+          Built with &hearts; by <a href="https://www.linkedin.com/in/utkarsh09/" target="_blank" rel="noreferrer" className="hover:underline">UT (Utkarsh Tiwari)</a>
         </p>
         <p>Design Inspiration - TailwindCSS &amp; DaisyUI</p>
       </div>
