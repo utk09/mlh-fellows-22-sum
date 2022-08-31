@@ -20,10 +20,17 @@ const Home = () => {
                 22.SUM.8 | Solana Sharks
               </h1>
               <p className="mt-4 text-lg text-primary">
-                Solana Sharks was a group of 14 students from all over the world
-                who graduated from the MLH Internship in the summer of 2022. The
-                team worked on two projects: Solana Bounty (4 fellows) and
-                Solana Whitelisting Contract (10 fellows).
+                Solana Sharks was a group of
+                <span>
+                  <a className="hover:underline" href="#fellows">
+                    {" "}
+                    14 students (fellows){" "}
+                  </a>
+                </span>
+                from all over the world who graduated from the MLH Internship in
+                the summer of 2022. The team worked on two projects: Solana
+                Bounty (4 fellows) and Solana Whitelisting Contract (10
+                fellows).
               </p>
             </div>
           </div>
@@ -85,11 +92,11 @@ const Home = () => {
 
         <hr className="my-10 border-2 border-neutral-content" />
 
-        <section>
+        <section id="fellows">
           <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:px-4 relative">
             <div className="mx-auto text-center">
               <div className="space-y-12">
-                <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-senary-500" id="fellows">
+                <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-senary-500">
                   Fellows of 22.SUM.8
                 </h2>
                 <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
