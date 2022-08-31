@@ -85,11 +85,11 @@ const Home = () => {
 
         <hr className="my-10 border-2 border-neutral-content" />
 
-        <section id="fellows">
+        <section>
           <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:px-4 relative">
             <div className="mx-auto text-center">
               <div className="space-y-12">
-                <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-senary-500">
+                <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-senary-500" id="fellows">
                   Fellows of 22.SUM.8
                 </h2>
                 <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
