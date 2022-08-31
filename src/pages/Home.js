@@ -85,7 +85,7 @@ const Home = () => {
 
         <hr className="my-10 border-2 border-neutral-content" />
 
-        <section>
+        <section id="fellows">
           <div className="mx-auto max-w-7xl py-4 px-4 sm:px-6 lg:px-4 relative">
             <div className="mx-auto text-center">
               <div className="space-y-12">
